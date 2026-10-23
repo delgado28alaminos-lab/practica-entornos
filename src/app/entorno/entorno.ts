@@ -12,7 +12,7 @@ export class Entorno {
     'Bienvenido/a a la aplicación de gestión de entornos con Git, GitHub y Vercel.';
 
   // Datos del entorno: cada rama (main, qa-pending, uat-pending) tiene su propia versión
-  protected readonly siglas = 'DEV';
-  protected readonly mensaje = 'Entorno de desarrollo local';
-  protected readonly color = '#6b7280';
+  protected readonly siglas = 'QA';
+  protected readonly mensaje = 'Entorno de pruebas QA';
+  protected readonly color = '#ea580c';
 }
